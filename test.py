@@ -1,6 +1,27 @@
+def name(name):
+    return name
 
-print(100)
 
-print(3.14)
+x=name("khalid")
+print(x)
 
-print("hello world")
+
+
+num1=input("enter first number : ")
+
+num2=input("enter second number : ")
+
+def sub(num1,num2):
+    return int(num1) - int(num2)
+
+
+print(sub(num1,num2))
+print(type(sub))
+
+for chars in "khalid":
+    print(chars)
+
+for i in range(100):
+    print(i)
+
+
