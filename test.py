@@ -1,2 +1,6 @@
-name ="khalid"
-print("hello world") 
+
+print(100)
+
+print(3.14)
+
+print("hello world")
