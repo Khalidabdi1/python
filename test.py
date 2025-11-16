@@ -1,8 +1,8 @@
-import random
+from random import randrange,random
 
 # between 0,1
-prop=random.random()
+prop=random()
 print(prop)
 
-integ=random.randrange(000000,999999)
+integ=randrange(000000,999999)
 print(integ)
