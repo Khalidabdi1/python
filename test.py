@@ -1,18 +1,8 @@
-import turtle ;
+import random
 
-wn=turtle.Screen()
-khalid=turtle.Turtle()
-khalid.forward(100)
-khalid.left(90)
-khalid.forward(100)
+# between 0,1
+prop=random.random()
+print(prop)
 
-khalid.left(90)
-khalid.forward(100)
-
-khalid.left(90)
-khalid.forward(100)
-
-
-
-
-turtle.done()
+integ=random.randrange(000000,999999)
+print(integ)
